@@ -2,7 +2,7 @@
   font-family: "Gilroy", sans-serif;
 }
 .bx-cart {
-  padding-left: 10rem;
+  padding-left: 9rem;
 }
 .bgimage {
   background-image: url(./assets/BGimage.png);
@@ -175,7 +175,7 @@ margin-bottom: 1rem;
     margin: auto;
   }
   .bx-cart {
-    padding-left: none;
+    padding-left: 0%;
   }
   .bitmap {
     padding-right: 2rem;
