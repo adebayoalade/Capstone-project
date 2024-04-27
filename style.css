@@ -10,13 +10,27 @@
   background-size: cover;
   position: relative;
 }
-.card {
-  background-color: #f4f7fa !important;
-  position: absolute;
-  border: none;
-  top: 50%;
-  left: 85%;
-  transform: translate(-90%, -90%);
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.category-width {
+  width: 255px;
+  background-color: #f4f7fa;
+}
+.category-width2 {
+  background-color: #fff;
+}
+.inner {
+  display: grid;
+  gap: 1rem;
+}
+.inner2 {
+  display: grid;
+  gap: 1rem;
 }
 .house_layout {
 font-size: 17px;
@@ -46,12 +60,15 @@ margin-bottom: 1rem;
 }
 .hero-desc {
   font-size: 60px;
+  width: 585px;
+  margin: auto;
 }
 .bitmap {
   width: 157px;
   height: 160px;
   padding-left: 3rem;
   margin: auto;
+  padding-bottom: 2rem;
 }
 .first-card {
   background-color: #fff !important;
@@ -112,13 +129,13 @@ margin-bottom: 1rem;
   background-color: #161c2d;
   background-size: contain;
   height: 100vh;
-  margin-top: 1rem;
 }
-
+.mon {
+  width: 585px;
+}
 .Alady {
   padding-top: 9%;
-  overflow: hidden;
-  transform: translate(30%, 5%);
+  width: 100%;
 }
 
 .bgimage5 {
@@ -151,6 +168,12 @@ margin-bottom: 1rem;
 .footer-link {
   text-decoration: none;
 }
+.foot {
+  gap: 11rem;
+}
+.foot2 {
+  gap: 8rem;
+}
 /* utility class  */
 .footer-text {
   list-style: none;
@@ -176,6 +199,15 @@ margin-bottom: 1rem;
   }
   .bx-cart {
     padding-left: 0%;
+  }
+  .category {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-desc {
+    font-size: 30px;
+    width: 300px;
+    margin: auto;
   }
   .bitmap {
     padding-right: 2rem;
@@ -208,6 +240,26 @@ margin-bottom: 1rem;
   .shopping-text2 {
     font-size: 16px;
     width: 270px;
+  }
+  .bgimage3 {
+    height: fit-content;
+  }
+  .Alady {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .bgimage3 {
+    background-color: #161c2d;
+    background-size: contain;
+  }
+  .mon {
+    width: 100%;
+  }
+  .foot {
+    gap: 3rem;
+  }
+  .foot2 {
+    gap: 2rem;
   }
   .Alady {
     padding-top: 9%;
