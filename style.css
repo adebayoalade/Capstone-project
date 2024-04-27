@@ -155,7 +155,7 @@ margin-bottom: 1rem;
 }
 .CTA-text {
   font-size: 60px;
-  width: 100%;
+  width: 550px;
   margin: auto;
 }
 .button {
@@ -251,6 +251,11 @@ margin-bottom: 1rem;
   .bgimage3 {
     background-color: #161c2d;
     background-size: contain;
+  }
+  .CTA-text {
+    font-size: 28px;
+    width: 300px;
+    margin: auto;
   }
   .mon {
     width: 100%;
