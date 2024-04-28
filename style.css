@@ -267,6 +267,9 @@ margin-bottom: 1rem;
     overflow: hidden;
     max-width: 100%;
   }
+  .footer-text {
+    font-size: 10px;
+  }
   .bgimage3 {
     background-color: #161c2d;
     background-size: contain;
